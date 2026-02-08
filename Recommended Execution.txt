@@ -1,0 +1,8 @@
+# For Surface Duo testing
+node dropdown-validator4.js --browser=edge --device=mobile --mobileDevice="Surface Duo"
+
+# For iPhone 12 testing  
+node dropdown-validator4.js --browser=edge --device=mobile --mobileDevice="iPhone 12"
+
+# Headless for CI/CD
+node dropdown-validator4.js --browser=edge --device=mobile --mobileDevice="Samsung Galaxy S21" --headless

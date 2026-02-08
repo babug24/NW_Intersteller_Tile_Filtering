@@ -1,0 +1,24 @@
+{
+	"name": "nw_intersteller_tile_filtering",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"directories": {
+		"test": "tests"
+	},
+	"dependencies": {
+		"@playwright/test": "^1.58.1",
+		"@types/selenium-webdriver": "^4.35.5",
+		"chromedriver": "^145.0.1",
+		"csv-parse": "^6.1.0",
+		"csv-parser": "^3.2.0",
+		"selenium-webdriver": "^4.40.0",
+		"winston": "^3.19.0"
+	}
+}
